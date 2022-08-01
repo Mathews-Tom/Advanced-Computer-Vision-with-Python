@@ -24,7 +24,7 @@ class HandDetector():
         self.hands = self.mp_hands.Hands(static_image_mode=self.image_mode,
                                         max_num_hands=self.max_hands,
                                         min_detection_confidence=self.detection_conf, 
-                                        min_tracking_confidence=self.track_conf)
+                                        min_tracking_confidence=self.tracking_conf)
         self.mp_draw = mp.solutions.drawing_utils
     
     def findHands(self, img: Mat, draw: bool=True) -> Mat:
