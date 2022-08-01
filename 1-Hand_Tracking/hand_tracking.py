@@ -7,19 +7,19 @@ import time
 class HandDetector():
     """HandDetector class"""
     def __init__(self, image_mode: bool=False, max_hands: int=2, detection_conf: float=0.5, 
-                    track_conf: float=0.5):
+                    tracking_conf: float=0.5):
         """Initialize the HandDetector.
 
         Args:
             image_mode (bool, optional): Image mode is static or live. Defaults to False.
             max_hands (int, optional): Maximum number of hands. Defaults to 2.
             detection_conf (float, optional): Detenction confidence. Defaults to 0.5.
-            track_conf (float, optional): Tracking confidence. Defaults to 0.5.
+            tracking_conf (float, optional): Tracking confidence. Defaults to 0.5.
         """
         self.image_mode = image_mode
         self.max_hands = max_hands
         self.detection_conf = detection_conf
-        self.track_conf = track_conf
+        self.tracking_conf = tracking_conf
         self.mp_hands = mp.solutions.hands
         self.hands = self.mp_hands.Hands(static_image_mode=self.image_mode,
                                         max_num_hands=self.max_hands,
