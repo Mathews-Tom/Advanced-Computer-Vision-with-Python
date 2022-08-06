@@ -93,7 +93,7 @@ class PoseDetector():
 
 
 def main():
-    cap = cv2.VideoCapture("PoseVideos/PolinaTankilevitch.mp4")
+    cap = cv2.VideoCapture("Media/Pose_Videos/PolinaTankilevitch.mp4")
     pTime = 0
     detector = PoseDetector()
     while True:
