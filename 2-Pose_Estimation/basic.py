@@ -5,7 +5,7 @@ import time
 mpDraw = mp.solutions.drawing_utils
 mpPose = mp.solutions.pose
 pose = mpPose.Pose()
-cap = cv2.VideoCapture("Media/Pose_Videos/PoseSegmentation.mp4")
+cap = cv2.VideoCapture("Media/Poses/PoseSegmentation.mp4")
 pTime = 0
 
 while True:
