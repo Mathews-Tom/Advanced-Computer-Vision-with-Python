@@ -8,6 +8,10 @@ Advance Computer Vision with Python using OpenCV and MediaPipe. All of the modul
 - [Face Detection](Modules/Face_Detection)
 - [Face Meshes](Modules/Face_Mesh)
 
+### Projects
+
+- [Gesture Volume Control](Projects/Gesture_Volume_Control)
+
 ### Sample Media
 
 All sample media used for testing the different modules was downlaoded from [https://www.pexels.com/](https://www.pexels.com/). They are also zipped and included in this repo. Extract the zipped folder to be able to run the programs.
