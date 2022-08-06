@@ -3,10 +3,14 @@ Advance Computer Vision with Python using OpenCV and MediaPipe. All of the modul
 
 ### Modules
 
-- [Hand Tracking](1-Hand_Tracking)
-- [Pose Estimation](2-Pose_Estimation)
-- [Face Detection](3-Face_Detection)
-- [Face Meshes](4-Face_Mesh)
+- [Hand Tracking](Modules/Hand_Tracking)
+- [Pose Estimation](Modules/Pose_Estimation)
+- [Face Detection](Modules/Face_Detection)
+- [Face Meshes](Modules/Face_Mesh)
+
+### Projects
+
+- [Gesture Volume Control](Projects/Gesture_Volume_Control)
 
 ### Sample Media
 
