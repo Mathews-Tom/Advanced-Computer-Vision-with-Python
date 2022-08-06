@@ -1,7 +1,7 @@
 import cv2
 import time
 import numpy as np
-import hand_tracking as ht
+import HandTracking as ht
 import math
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL

@@ -1,7 +1,7 @@
 import cv2
 import time
 import os
-import hand_tracking as ht
+import HandTracking as ht
 wCam, hCam = 640, 480
 cap = cv2.VideoCapture(1)
 cap.set(3, wCam)
