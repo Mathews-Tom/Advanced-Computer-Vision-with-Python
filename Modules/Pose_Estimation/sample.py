@@ -1,6 +1,6 @@
 import cv2
 import time
-import pose_estimation as pe
+import PoseEstimation as pe
 
 cap = cv2.VideoCapture("Media/Poses/DivaPlavalaguna.mp4")
 pTime = 0

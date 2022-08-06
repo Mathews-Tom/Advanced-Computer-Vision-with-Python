@@ -1,14 +1,7 @@
-# importing sys
-import os
-import sys
- 
-# adding Folder_2 to the system path
-sys.path.insert(0, f"{os.getcwd()}/Modules/Hand_Tracking")
-
 import cv2
 import time
 import numpy as np
-import hand_tracking as ht
+import HandTracking as ht
 import math
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
